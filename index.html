@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Aşkölçer</title>
+  <!-- favicon-->
+  <link rel="shortcut icon" href="/heart.ico">
+  <!-- Style Sheet  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- fonts  -->
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Lobster|Montserrat|Raleway" rel="stylesheet">
+</head>
+
+<body>
+  <div id="love-calculator" class="calculator">
+    <form id="loveForm" id="loveform" class="" action="/" onsubmit="return loveValidation()" method="post">
+      <h1>Aşkölçer</h1>
+      <h2 id="lovefinal">Aşk ölç</h2>
+      <h2>İsmin</h2>
+      <input id="firstname" class="yourname name-box" type="text" name="firstName" placeholder="İsmin"></input>
+      <h2>O'nun ismi</h2>
+      <input id="lovername" class="lovername name-box" type="text" name="lovername" placeholder="O'nun ismi"></input>
+    </form>
+    <button id="love-button" onclick="loveCalculator()" class="buttons" type="submit" value="Submit">Ölç</button>
+    <button onclick="resetFunction()" class="buttons" type="submit">Sıfırla</button>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
